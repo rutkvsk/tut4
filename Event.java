@@ -10,15 +10,15 @@ public class Event {
 
 
     public Event(String name, double price) {
-        this(name, price, "N/A", "N/A", 100);
+        this(name, price, "not available", "not available", 130);
     }
 
     public Event(String name, double price, String date) {
-        this(name, price, date, "N/A", 100);
+        this(name, price, date, "not available", 150);
     }
 
     public Event(String name, double price, String date, String location) {
-        this(name, price, date, location, 100);
+        this(name, price, date, location, 110);
     }
 
     public Event(String name, double price, String date, String location, int maxNumberOfSeats) {

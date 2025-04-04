@@ -14,7 +14,7 @@ public class Customer {
     }
 
     public Customer(String firstName, String lastName) {
-        this(firstName, lastName, "N/A");
+        this(firstName, lastName, "not available");
     }
 
 
